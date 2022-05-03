@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    font-family: 'Lucida Sans';
+    background-color: #006d77;
+}
+
+#global{
+    display: flex;
+    width: auto;
+}
+
+.active {
+    background-color: #2a9d8f;
+    padding: 11px 11px;
+    border: 0 solid #2a9d8f;
+    color: white;
+    width: 200px;
+}
+
+.collapsible {
+    color: #2a9d8f;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    padding-top: 16px;
+}
+
+nav {
+    background-color: rgb(245, 245, 245);
+    width: 222px;
+    padding: 20px;
+    height: 100%;
+    border-radius: 30px;
+    height: 560px;
+}
+
+.navsec a {
+    display: block;
+    margin: 2px;
+}
+
+h5 {
+    margin: 15px 0;
+}
+
+main {
+    background-color: #83c5be;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+#welcome {
+    width: 100%;
+    height: 200px;
+    color:black;
+    display: block;
+    padding: 0 0 460px 0;
+}
+
+#identifier {
+    position: relative;
+    bottom: 40px;
+    left: 300px;
+}
+
+#textwelcome {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    top: 50px;
+    font-size: 200%;
+}
+
+.recherche {
+    width: 920px;
+}
+
+#textrecherche {
+    font-size: 150%;
+    text-align: center;
+    color: white;
+}
+
+#rechercher {
+    margin: 10px 10%;
+}
+
+#recherchebar {
+    width: 78%;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    color: rgb(14, 14, 14);
+    font-size: medium;
+}
+
+#submit {
+    background-color: rgb(65, 194, 65);
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+a {
+    border: 0px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    border-width: 10px;
+    border-radius: 24px;
+    width: auto;
+    padding: 1px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    border: 0px solid #83c5be;
+    width: 200px;
+    padding: 11px;
+    background-color:#83c5be;
+    position: relative;
+}
+
+#identifier a:hover {
+    background-color: #006d77;
+    color: white;
+}
+
+hr {
+    width: auto;
+}
+
+.billets {
+    background-color: #006d77;
+    display: block;
+}
+
+.billet {
+    background-color: #83c5be;
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 30px;
+    display: flex;
+}

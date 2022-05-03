@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+    <title>TP Maquette - Accueil</title>
+</head>
+<body>
+    <section id="global">
+        <button type="button" class="collapsible"><i class="fa-solid fa-angles-left"></i></button>
+        <nav class="collapsible">
+            <h3 style="margin-top: 5px;">Menu</h3>
+            <hr>
+            <h5>Réserver un Trajet</h5>
+            <section class="navsec">
+                <a href="#" class="active"><i class="fa-solid fa-house-user"></i> Accueil</a>
+            </section>
+            <hr>
+            <h5>Réserver un Trajet</h5>
+            <section class="navsec">
+                <a href="pages/recherche.html"><i class="fa-solid fa-train-subway"></i> Recherche de Voyages</a>
+                <a href="pages/panier.html"><i class="fa-solid fa-cart-shopping"></i> Panier</a>
+            </section>
+            <hr>
+            <h5>Mes Billets</h5>
+            <section class="navsec">
+                <a><i class="fa-solid fa-xmark"></i> Billets inutilisés</a>
+                <a href="pages/historique.html"><i class="fa-regular fa-folder"></i> Historique des trajets</a>
+            </section>
+            <hr>
+            <h5>Mon Compte</h5>
+            <section class="navsec">
+                <a href="pages/profil.html"><i class="fa-regular fa-user"></i> Consulter mes infos</a>
+                <a href="pages/settings.html"><i class="fa-solid fa-ellipsis"></i> Paramètres</a>
+            </section>
+        </nav>
+        <main>
+            <section id="welcome">
+                <h1 id="textwelcome">Bienvenue chez la CNSF</h1>
+                <img id="relaxmax" src="image/relaxmaxdog.png" alt="relaxmax">
+            </section>
+            <section id="identifier" class="display: flex">
+                <a href="pages/login.html">Se connecter</a>
+                <a href="pages/signup.html">S'enregistrer</a>
+            </section>
+        </main>
+    </section>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+    </script>
+</body>
+</html>

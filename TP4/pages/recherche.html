@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.1.1-web/css/all.min.css">
+    <title>TP Maquette - Recherche de Voyages</title>
+</head>
+<body>
+    <section id="global">
+        <nav>
+            <h3 style="margin-top: 5px;">Menu</h3>
+            <hr>
+            <h5>Réserver un Trajet</h5>
+            <section class="navsec">
+                <a href="../index.html"><i class="fa-solid fa-house-user"></i> Accueil</a>
+            </section>
+            <hr>
+            <h5>Réserver un Trajet</h5>
+            <section class="navsec">
+                <a class="active"><i class="fa-solid fa-train-subway"></i> Recherche de Voyages</a>
+                <a href="panier.html"><i class="fa-solid fa-cart-shopping"></i> Panier</a>
+            </section>
+            <hr>
+            <h5>Mes Billets</h5>
+            <section class="navsec">
+                <a><i class="fa-solid fa-xmark"></i> Billets inutilisés</a>
+                <a href="historique.html"><i class="fa-regular fa-folder"></i> Historique des trajets</a>
+            </section>
+            <hr>
+            <h5>Mon Compte</h5>
+            <section class="navsec">
+                <a href="profil.html"><i class="fa-regular fa-user"></i> Consulter mes infos</a>
+                <a href="settings.html"><i class="fa-solid fa-ellipsis"></i> Paramètres</a>
+            </section>
+        </nav>
+        <main>
+            <section class="recherche">
+                <h1 id="textrecherche">Recherchez vos voyages, trajets courts et bien plus encore...?</h1>
+                <form action="rechercher" id="rechercher">
+                    <input type="text" id="recherchebar" placeholder="Une destination, une demande...">
+                    <input type="submit" value="Valider" id="submit">
+                </form> 
+                <section id="billets">
+    
+                </section>
+    
+            </section>
+            
+        </main>
+    </section>
+    <script type="text/javascript" src="../js/TP4.js"></script>
+
+</body>
+</html>
